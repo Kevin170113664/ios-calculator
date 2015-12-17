@@ -20,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H96-qI-b3G">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="H96-qI-b3G">
                                 <rect key="frame" x="-25" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -710,6 +710,29 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="button0" destination="DBm-Sd-pbO" id="Eyv-Et-jEZ"/>
+                        <outlet property="button1" destination="FXP-OA-GkS" id="HYF-Pb-Hbb"/>
+                        <outlet property="button2" destination="BTp-Im-wlG" id="eWw-Ta-eax"/>
+                        <outlet property="button3" destination="Ujb-dF-dJH" id="l4o-q3-dn7"/>
+                        <outlet property="button4" destination="9hn-oM-q9n" id="LlK-n4-1GN"/>
+                        <outlet property="button5" destination="unb-3N-8xU" id="WfO-E1-Nbq"/>
+                        <outlet property="button6" destination="yms-KA-9mM" id="hYh-ev-Kvd"/>
+                        <outlet property="button7" destination="rO5-RC-Yq5" id="UZ8-wd-Ku6"/>
+                        <outlet property="button8" destination="goe-Gj-0Fy" id="PgQ-Uu-bb9"/>
+                        <outlet property="button9" destination="tKY-7S-pcg" id="byR-xK-Myg"/>
+                        <outlet property="clearButton" destination="mk4-vK-Quo" id="Sgk-Ts-Yoc"/>
+                        <outlet property="deleteButton" destination="189-FW-ZGc" id="08x-fH-MKj"/>
+                        <outlet property="divideButton" destination="HVF-eq-OQs" id="mzm-0h-lYw"/>
+                        <outlet property="dotButton" destination="0Nc-BX-Nn9" id="y60-oY-1Ce"/>
+                        <outlet property="equalButton" destination="3cj-Tv-OYb" id="RE0-Iv-aGB"/>
+                        <outlet property="leftBraketButton" destination="B6d-N1-ebr" id="AQh-8v-6lw"/>
+                        <outlet property="minusButton" destination="5Ik-Oj-i5y" id="het-gE-Nkb"/>
+                        <outlet property="multiplyButton" destination="CLU-s0-OdQ" id="AVf-hO-KmO"/>
+                        <outlet property="plusButton" destination="MGA-mh-KvV" id="RCm-Bd-6AK"/>
+                        <outlet property="resultText" destination="H96-qI-b3G" id="lVM-y5-wAB"/>
+                        <outlet property="rightBraketButton" destination="HZz-ft-A5s" id="DrO-k0-g7G"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

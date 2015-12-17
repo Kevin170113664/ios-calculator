@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Calculator
-//
-//  Created by Linhao Li on 12/16/15.
-//  Copyright © 2015 Linhao Li. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
